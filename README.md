@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# Calorie Counter
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple Calorie Counter application built using React and Tailwind CSS. The app allows users to track their daily calorie intake by adding food items to their meals (breakfast, lunch, dinner) and provides a daily summary.
 
-## Available Scripts
+## How to Run the Project
 
-In the project directory, you can run:
+To run this project locally, follow the steps below:
 
-### `npm start`
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/vishdev-git/calorie-counter
+   ```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. **Navigate into the project directory**:
+   ```bash
+   cd calorie-counter
+   ```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+3. **Install the dependencies**:
+   ```bash
+   npm install
+   ```
 
-### `npm test`
+4. **Run the project**:
+   ```bash
+   npm run start
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The app should now be running at `http://localhost:3000`.
 
-### `npm run build`
+## Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Food Search**: Search for food items in the app and add them to your daily meals (breakfast, lunch, dinner).
+- **Calorie Tracking**: Track the total calories for each meal and the total daily intake.
+- **Custom Food Collection**: I haven't used any third-party APIs for fetching food data. The entire food collection was manually created by me.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Technologies Used
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **React**: For building the frontend of the application
+- **Tailwind CSS**: For styling and responsive design
 
-### `npm run eject`
+## Time Taken
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+This project was created in approximately **1 hour**.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Contributing
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Feel free to fork and modify the project for your own use!
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+If you have any questions or suggestions, feel free to open an issue or submit a pull request.
